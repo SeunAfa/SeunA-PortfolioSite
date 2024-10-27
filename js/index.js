@@ -55,11 +55,11 @@ sections.forEach((section, index) => {
                 ease: "power1.inOut"
             },
             pin: false, 
-            scrub: true,
-            markers: {
-                fontSize: "20px",
-                indent: 150
-            }
+            scrub: true
+            //markers: {
+            //    fontSize: "20px",
+            //    indent: 150
+            //}
         });
     }
 });
@@ -70,11 +70,11 @@ ScrollTrigger.create({
     start: "top top",  // Snap it to the top
     end: () => `+=${lastSection.offsetHeight}`,  // Let it scroll freely once snapped
     pin: false,  
-    scrub: true,  
-    markers: {
-        fontSize: "20px",
-        indent: 150
-    }
+    scrub: true 
+    //markers: {
+    //    fontSize: "20px",
+    //    indent: 150
+    //}
 });
 
 // Refresh ScrollTrigger on window load
