@@ -1,0 +1,319 @@
+@media (min-width: 640px) { 
+         /*About Me*/
+        .letterPlaceHolderA{
+            width: 30px; 
+        }
+
+        .letterPlaceHolderB{
+            width: 23px; 
+        }
+
+        .letterPlaceHolderO{
+            width: 24px; 
+        }
+
+        .letterPlaceHolderU{
+            width: 25px; 
+        }
+        .letterPlaceHolderT{
+            width: 18px; 
+        }
+        .letterPlaceHolderM{
+            width: 37px; 
+        }
+
+        .letterPlaceHolderE{
+            width: 21px; 
+        }
+        
+        /*My Skills*/
+        #mySkills-listContainer {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(6, auto); 
+            gap: 20px; 
+            justify-items: center; 
+            align-items: center;
+        }
+        
+        /*Project*/
+        .projectCard-thumbnailContainer{
+            overflow: hidden;
+            width:250px;
+            height: 150px;
+        }
+}
+
+@media (min-width: 768px) { 
+/*About Me*/
+.letterPlaceHolderA{
+    width: 38px; 
+}
+
+.letterPlaceHolderB{
+    width: 30px; 
+}
+
+.letterPlaceHolderO{
+    width: 31px; 
+}
+
+.letterPlaceHolderU{
+    width: 33px; 
+}
+.letterPlaceHolderT{
+    width: 22px; 
+}
+.letterPlaceHolderM{
+    width: 47px; 
+}
+
+.letterPlaceHolderE{
+    width: 28px; 
+}
+/*My Skills*/
+#mySkills-bckImgSVG-wholeElement-startFrom3{
+    transform: translateY(-265px);
+}
+
+#mySkills-listContainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, auto); 
+    gap: 20px; 
+    justify-items: center; 
+    align-items: center;
+    margin-top: 30px;
+}
+
+       /*Projects*/ 
+       .projectCard-thumbnailContainer{
+        overflow: hidden;
+        width:250px;
+        height: 150px;
+       }
+}
+
+@media (min-width: 1024px) { 
+    /*Landing Section*/
+    #landing-img-Lg{
+        transform: scale(1);
+    } 
+          /*About Me*/
+        #aboutMe-bckImgSVG{
+            opacity: 0.4;
+            transform: translateY(50px); 
+        }
+
+        #aboutMe-bckImgSVG-2{
+            transform: translate(-40px, -30px);
+        }
+        #aboutMe-bckImgSVG-1{
+            transform: translate(130px, -180px); 
+        }
+
+        #aboutMe-bckImgSVG-3{
+            transform: translate(-90px, -300px);
+        }
+
+        #aboutMe-bckImgSVG-6{
+            transform: translate(300px, 535px);
+        }
+
+          .letterPlaceHolder {
+            width: 50px; 
+            height: 50px;  
+        }
+        .letterPlaceHolderA{
+            width: 48px; 
+        } 
+
+        .letterPlaceHolderB{
+            width: 38px; 
+        }
+
+        .letterPlaceHolderO{
+            width: 37px; 
+        }
+
+        .letterPlaceHolderU{
+            width: 40px; 
+        }
+        .letterPlaceHolderT{
+            width: 27px; 
+        }
+        .letterPlaceHolderM{
+            width: 58px; 
+        }
+
+        .letterPlaceHolderE{
+            width: 34px; 
+        }
+        /*My Skills*/
+        #mySkills-Container{
+            height: 100vh;
+        }
+
+        #mySkills-bckImgSVG-7{
+            transform: translateX(-40px);
+        }
+
+        #mySkills-bckImgSVG-wholeElement-startFrom3{
+            transform: translateY(-350px);
+            margin-left: auto;
+        }
+
+        #mySkills-bckImgSVG-9{
+            transform: scale(0.5);
+            transform: translateY(320px);
+        }
+
+        #mySkills-listContainer {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr); 
+            grid-template-rows: repeat(3, auto);
+            gap: 20px; 
+            justify-items: center; 
+            align-items: center; 
+            margin-top: 30px;
+        }
+ 
+        /*Projects*/
+.projectCard-thumbnailContainer{
+    overflow: hidden;
+    width:250px;
+    height: 150px;
+}
+
+}
+
+@media (min-width: 1280px) { 
+    /*Landing Section*/   
+    #landing-img-Lg{
+        transform: scale(1.2);
+    } 
+  
+    /*About Me*/
+    #aboutMe-bckImgSVG-3{
+        transform: translate(-90px, -400px);
+    }
+
+    #aboutMe-bckImgSVG-4{
+        transform: translateY(-140px);
+    }
+
+          .letterPlaceHolder {
+            width: 50px; 
+            height: 60px;  
+        }
+        .letterPlaceHolderA{
+            width: 57px; 
+        }
+
+        .letterPlaceHolderB{
+            width: 48px; 
+        }
+
+        .letterPlaceHolderO{
+            width: 44px; 
+        }
+
+        .letterPlaceHolderU{
+            width: 48px; 
+        }
+        .letterPlaceHolderT{
+            width: 32px; 
+        }
+        .letterPlaceHolderM{
+            width: 70px; 
+        }
+
+        .letterPlaceHolderE{
+            width: 41px; 
+        }
+
+        .firstLetterA, .secondLetterA,
+.firstLetterB, .secondLetterB,
+.firstLetterO, .secondLetterO,
+.firstLetterU, .secondLetterU,
+.firstLetterT, .secondLetterT,
+.firstLetterM, .secondLetterM,
+.firstLetterE, .secondLetterE {
+    top: 3px;
+}
+   /*My Skills*/
+#mySkills-listContainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    grid-template-rows: repeat(3, auto);
+    gap: 20px; 
+    justify-items: center; 
+    align-items: center; 
+    margin-top: 30px;
+}
+
+   /*Projects*/
+   .projectCard-thumbnailContainer{
+    overflow: hidden;
+    width:250px;
+    height: 150px;
+}
+
+
+}
+
+@media (min-width: 1536px) { 
+        /*Landing Section*/
+        #landing-img-Lg{
+            transform: scale(1.6);
+        } 
+        /*AboutMe*/
+        #aboutMe-bckImgSVG{
+            transform: translateY(160px); 
+        }
+
+        #aboutMe-bckImgSVG-3{
+            transform: translate(-50px, -300px);
+        }
+    
+        #aboutMe-bckImgSVG-4{
+            transform: translateY(-225px);
+        }
+
+        #aboutMe-Text{
+            width: 70%;
+        }
+
+           /*My Skills*/
+#mySkills-bckImgSVG-wholeElement-startFrom4{
+    transform: translateY(-130px);
+    margin-left: auto;
+}
+
+#mySkills-listContainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    grid-template-rows: repeat(3, auto);
+    gap: 20px; 
+    justify-items: center; 
+    align-items: center; 
+    margin-top: 30px;
+}
+/*Projects*/
+.projectCard-Wrapper{
+    overflow:hidden;
+    width:90%;
+}
+
+.projectCard-thumbnailContainer{
+    overflow: hidden;
+    width:250px;
+    height: 150px;
+}
+        
+}

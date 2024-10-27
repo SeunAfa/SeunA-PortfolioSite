@@ -1,0 +1,36 @@
+#sideNav-transparentBck{
+    background-color: rgba(19, 60, 85, 0.5);
+}
+
+ /* Slide in from the left */
+@keyframes slideIn {
+  from {
+      transform: translateX(-100%);
+  }
+  to {
+      transform: translateX(0);
+  }
+}
+
+/* Slide out to the left */
+@keyframes slideOut {
+  from {
+      transform: translateX(0);
+  }
+  to {
+      transform: translateX(-100%);
+  }
+}
+
+/* Animation classes */
+.slide-in {
+  animation: slideIn 550ms forwards;
+}
+
+.slide-out {
+  animation: slideOut 550ms forwards;
+}
+
+#open-mobileBtn{
+  margin-left: auto;
+}
